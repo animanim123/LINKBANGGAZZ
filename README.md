@@ -1,0 +1,4 @@
+INI SET UP AWAL UNTUK MEMBUAT PROJECT FRONT END PAKAI VITE SIAP PAKAI
+
+"vite": "^7.2.2"
+"@tailwindcss/cli": "^4.1.17"
