@@ -5,6 +5,7 @@ const Card = () => {
   const [isEnglish, setIsEnglish] = useState(true);
 
   const menuEN = [
+    { title: "Anime Web", to: "/anime", icon: "fas fa-tv" },
     { title: "Projects", to: "/projects", icon: "fas fa-code" },
     { title: "Portfolio", to: "/notfound", icon: "fas fa-briefcase" },
     { title: "About Me", to: "/notfound", icon: "fas fa-user" },
@@ -15,6 +16,7 @@ const Card = () => {
   ];
 
   const menuID = [
+    { title: "Web Anime", to: "/anime", icon: "fas fa-tv" },
     { title: "Projek", to: "/projects", icon: "fas fa-code" },
     { title: "Portofolio", to: "/notfound", icon: "fas fa-briefcase" },
     { title: "Tentang Saya", to: "/notfound", icon: "fas fa-user" },
@@ -45,7 +47,6 @@ const Card = () => {
   return (
     <div className="w-full flex justify-center items-center p-4 min-h-screen bg-black animate-bg">
       <div className="w-[420px] h-full bg-[#0d0d0d] text-white rounded-3xl shadow-2xl pb-10 pt-12 flex flex-col items-center border border-[#1a1a1a] fade-up">
-
         {/* BUTTON TRANSLATE */}
         <button
           onClick={() => setIsEnglish(!isEnglish)}
