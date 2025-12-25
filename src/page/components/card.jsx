@@ -101,7 +101,6 @@ const Card = () => {
           ))}
         </div>
       </div>
-      <img src="../public/char.png" alt="" srcset="" className="fixed bottom-0 right-20 w-70 fade-up hidden lg:block" />
     </div>
   );
 };

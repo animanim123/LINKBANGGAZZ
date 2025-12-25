@@ -42,7 +42,6 @@ const Project = () => {
       </div>
 
     </div>
-      <img src="../public/char2.png" alt="" srcset="" className="fixed bottom-0 right-1 w-70 fade-up hidden lg:block" />
   </div>
 );
 
